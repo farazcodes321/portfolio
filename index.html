@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/303a225095.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="logo3.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark nav-icon " onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars nav-icon" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Front End Webdeveloper/Desiger</p>
+                <h1>Hi, iam <span>Faraz</span><br> Sayyed</h1>
+              </div>
+        </div>
+    </div>
+        <!-- ------------------------------------------about------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>MYself sayyed faraz and I am Seeking an entry level opportunity with an esteemed organization where i can utilize my skills and enhance learning in the field of work.<br> capable of adapting new technologies.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML5 <br>CSS3<br> JAVASCRIPT<br> REACT.JS <br>BOOTSTRAP</span></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Fresher</span><br>As a self learner i do know how to work on projects
+                            and i have the knowledge and ability to work </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Bachelor of computer ApplicationS</span><br>G.H Raisoni institude of engeenering and business management <br>CGPA:9.25</li>
+                            <li><span>HSC</span><br>D.L junior collg <br>59.5%</li>
+                            <li><span>SSC</span><br>Biyani English Medium School<br>81.60%</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------services section ---------------------- -->
+    
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>web design </h2>
+                        <p>I design interactive and user friendly websites
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-desktop"></i>
+                        <h2>web development</h2>
+                        <p>I build static websites
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h2>Editing</h2>
+                        <p>I casually edits photos and videos
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- -----------------------------portfolio----------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image1.jpg" alt="image 1">
+                        <div class="layer">
+                            <h3>project1</h3>
+                            <p>Landing page using css and html</p>
+                            <a href="landing1.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image2.jpg" alt="image 2">
+                        <div class="layer">
+                            <h3>project 2</h3>
+                          <p>Landing page using css and html</p>
+                            <a href="landing2.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image3.jpg" alt="image 3">
+                        <div class="layer">
+                            <h3>project3</h3>
+                            <p>Landing page using css and html</p>
+                            <a href="landing3.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    
+    <!-- -----------------------------------contact----------------------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">contact me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>farazsayed235@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9021368447</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/_iam_faraaz?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://wa.me/+919021368447" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/faraz-sayyed-721580240" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="farazcv.pdf" alt="..." download class="btn btn2">Download cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="your Name" required>
+                            <input type="Email" name="Email" placeholder="your email" required>
+                            <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+
+        }
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+            
+        }
+        function closemenu() {
+            sidemenu.style.right = "-250px";
+            
+        }
+
+    </script>
+    <!-- <script>
+       
+    </script> -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyQNSWFkFZuJUFrZW5NDb5QnQebmv5P4W3Sgte8lLC9n5Tf8FR-ZU4WL7-0ufDE9-7_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "message sent sucessfully"
+                setTimeout(function() {
+                    msg.innerHTML=""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+
+</html>
+    
+</body>
+</html>
