@@ -16,12 +16,14 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url("background.png");
+    background-color: #080808;
     background-size: cover;
   
 
     background-position: center;
 
 }
+
 
 
 .container{
